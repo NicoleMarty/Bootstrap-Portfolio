@@ -3,49 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
+
 </head>
 
 <body>
-    <!--Begin Nav-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <div class="container">
-            <div class="navbar-brand">Nicole Marty</div>
-            <div class="d-flex justify-content-end">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-1 h1">Navbar</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--End Nav-->
+    <div class="card">
+        <img src="assets/images/white-waves.jpg" class="card-img" alt="waves">
+        <div class="card-img-overlay">
+            <div class="w-auto">
                 <div class="container">
-                    <div class="d-flex">
-                        <ul class="navbar-nav">
-                            <div class="d-flex justify-content-end">
-                                <div class="p-2">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                                    </li>
+                    <div class="row">
+                        <div class="col-md-8 offset-2">
+                            <div class="card mt-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">About Me</h5>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/images/headshot.jpg" alt="profile photo"
+                                                class="img-thumbnail">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                                                dignissim,
+                                                felis ut
+                                                dictum
+                                                tristique,
+                                                nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis
+                                                tempus
+                                                felis vitae
+                                                felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi
+                                                fringilla sem,
+                                                non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis,
+                                                porttitor ex
+                                                cursus,
+                                                luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem.
+                                                Nunc id
+                                                nisi et
+                                                neque fringilla ultricies. Aenean at feugiat elit, a posuere justo.
+                                                Pellentesque
+                                                egestas
+                                                dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur
+                                                porta
+                                                purus, id
+                                                posuere sem congue a.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="p-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Portfolio</a>
-                                    </li>
-                                </div>
-                                <div class="p-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
-                                </div>
+
                             </div>
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <!--End Nav-->
-
+    </div>
 
 
 
